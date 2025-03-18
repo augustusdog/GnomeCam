@@ -1,6 +1,6 @@
 # GnomeCam
 
-![IMG-20250317-WA0000](https://github.com/user-attachments/assets/997cefa9-fecc-4534-bee5-c828423aac13)
+![IMG-20250317-WA0000](https://github.com/user-attachments/assets/215a28ad-4dea-4743-bede-54537215d692)
 
 ## Introduction
 Ever wonder who knocked on your door and ran away?...  I thought of a fun little project to inconspicuously find out. 
@@ -27,7 +27,8 @@ Jumper leads | To connect the aformentioned components in a circuit.
 ### Circuit
 #### Schematic
 
-![circuit](https://github.com/user-attachments/assets/5408c9dc-1c22-4258-8e0a-dd895d84828a)
+![circuit](https://github.com/user-attachments/assets/9d5d2917-130e-403b-9651-521d8e7ce8c0)
+
 
 #### Power source
 Gnomeo the spy needs to be powered by something. For Gnome food I opted for a 9V battery - as it's what I had lying around. I also had, lying around, a power supply module which regulates voltage - which I used to convert the 9V supply from the battery into the 3.3V needed to operate the ESP32. Note that, the power supply module is missing from the circuit diagram / schematic as I couldn't find it's symbol in the circuit diagram web editor. It should also be noted that you could also use a buck converter for this as I've highlighted in the material requirements section.
@@ -316,7 +317,7 @@ https://www.printables.com/model/260908-garden-gnome/comments
 
 For context, I have an Ender 3 V2 3D printer so was quite fortunate that I could print it myself. Although, I hate to admit how long it took to print... Anyway, I decided to print it with 0% infill as I wanted to fit my electronics inside the body. The end result can be seen below. Please ignore the terrible filming - at the time I thought it was "artsy".
 
-https://github.com/user-attachments/assets/ebf22bc8-cb8b-434f-8f99-85a23022a432
+https://github.com/user-attachments/assets/02d29062-2b0c-4d7b-9303-ba2a0f50467d
 
 #### Creating Electronics Access Points
 Whilst initially the plan was to mount all electronics in the gnome, for simplicity I decided to put only the ESP32 in the gnome and the other electronics in a plastic box I'd printed a while ago.
@@ -330,25 +331,24 @@ Third step was drilling a hole in the plastic box - which wires connecting to th
 #### Painting
 Before I painted Gnomeo I thought it'd be a good idea to get rid of the some of the sharp ridges from the 3D printing process. Though quite tedious, I think it did probably help in making the final product look more stone like. The sanded part (with part of the hat sliced off) can be seen below.
 
-![IMG_0246](https://github.com/user-attachments/assets/4f56a586-609d-4f41-8ad9-f6d348d99a6e)
+![IMG_0246](https://github.com/user-attachments/assets/98f63b2f-83e6-4b3d-88da-c22bdadb1328)
 
 Next, I painted gnomeo. I used a stone paint and probably applied 4/5 layers. In hindsight I'd probably have painted the gnome white first, before applying stone paint. Regardless, I'd say it looks okay - as seen below.
 
-![IMG_0254](https://github.com/user-attachments/assets/46fbd6fd-150b-44ce-92d3-5662600c970d)
+![IMG_0254](https://github.com/user-attachments/assets/ed1eee0d-962e-490d-bc39-eb97e6fc52fc)
 
 #### Mounting Electronics
 
 Next step was mounting the ESP32 to the inside of the gnome. Conveniently it sat perched atop the legs - which meant all I had to do was sit in in place, hold it, then spray the ESP32 / leg interface with hot glue from a glue gun. It worked a treat! Worth mentioning, I'd label all your wires with masking tape before you do that. Else, its a bit tricky to tell which wire is for what. It doesn't look too bad from the image below.
 
-![IMG_0259](https://github.com/user-attachments/assets/e4e29c64-837a-4e5d-8a65-eee70d4b179b)
+![IMG_0259](https://github.com/user-attachments/assets/b4e59018-d4f4-4637-bb05-a97959deb98a)
 
 After I mounted electronics I decided to connect the gnome to the enclosure which would contain the battery, voltage regulator and resistors for the potential divider circuit, using glue.
 
 #### Using Heat Shrink Wrap for Exposed Wire
 I used heat shrink wrap for exposed wires / soldered joints so that it'd be better suited for the outside. The result can be seen in the image below.
 
-![IMG-20250317-WA0000](https://github.com/user-attachments/assets/a2e02efa-7293-47f3-94cf-1a864e1d9c76)
-
+![IMG-20250317-WA0000](https://github.com/user-attachments/assets/98554956-8236-4631-b3ec-68b6aee29048)
 
 ### Future Improvements
 Most of the issues I had towards the end of the project stemmed from the power source not being able to provide enough power and from electronics troubleshooting being a pain in the ass from me mounting the ESP32 inside the gnome without an easy access port for repairs.
